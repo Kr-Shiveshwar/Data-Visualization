@@ -1,0 +1,4 @@
+# region wise churn
+
+qplot(region,data = Telecom_train,geom = "bar",fill=factor(region))
+qplot(region,data = Telecom_train,geom = "bar",fill=churn,position = "stack")
